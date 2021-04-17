@@ -14,7 +14,7 @@ namespace proyectoPrueba
             string[] vector = new string[5];
 
             System.IO.StreamReader leerTxt =
-                new System.IO.StreamReader(@"C:\Users\bryan\Desktop\Proyecto Cátedra\Avance 2\proyectoPrueba\Inventario.txt"); // Ubicación que debe sustituir
+                new System.IO.StreamReader("Inventario.txt");
             while ((line = leerTxt.ReadLine()) != null)
             {
                 vector = line.Split(","); //Separa la linea cuando exista una coma
