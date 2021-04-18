@@ -1,0 +1,13 @@
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\bin\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.exe
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\bin\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.deps.json
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\bin\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.runtimeconfig.json
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\bin\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.runtimeconfig.dev.json
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\bin\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.dll
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\bin\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.pdb
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.csprojAssemblyReference.cache
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.AssemblyInfoInputs.cache
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.AssemblyInfo.cs
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.csproj.CoreCompileInputs.cache
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.dll
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.pdb
+E:\Documents\PROYECTO PROGRA I\REspaldo\Proyecto-Catedra-GP3\Proyecto-Catedra-GP3\obj\Debug\netcoreapp3.1\Proyecto-Catedra-GP3.genruntimeconfig.cache
