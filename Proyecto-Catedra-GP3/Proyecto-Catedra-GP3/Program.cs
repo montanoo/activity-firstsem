@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Proyecto_Catedra_GP3
+namespace proyectoPrueba
 {
     class Program
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
