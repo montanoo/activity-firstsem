@@ -2,11 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace proyectoPrueba
+namespace Proyecto_Catedra_GP3
 {
     class Productos
     {
         public static void Inventario()
+        {
+            var retornoVector = LeerTxt.LeerTexto();
+
+            // Productos en el inventario
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"|Código: {retornoVector[i, 0]} | Nombre: {retornoVector[i, 1]}");
+                Console.WriteLine($"|Descripción: {retornoVector[i, 4]}");
+            }
+        }
+        public static void Asignaciones()
         {
             var retornoVector = LeerTxt.LeerTexto();
 
@@ -45,16 +56,6 @@ namespace proyectoPrueba
             Int32 unidadesProducto8 = Convert.ToInt32(retornoVector[7, 3]);
             Int32 unidadesProducto9 = Convert.ToInt32(retornoVector[8, 3]);
             Int32 unidadesProducto10 = Convert.ToInt32(retornoVector[9, 3]);
-
-            // Productos en el inventario
-            Console.WriteLine("***************************************************************************************************\n");
-            for (int i = 0; i < 9; i++)
-            {
-                Console.WriteLine($"|Código: {retornoVector[i, 0]} | Nombre: {retornoVector[i, 1]}");
-                Console.WriteLine($"|Descripción: {retornoVector[i, 4]}\n");
-            }
-            Console.WriteLine("\n***************************************************************************************************");
-
         }
     }
 }

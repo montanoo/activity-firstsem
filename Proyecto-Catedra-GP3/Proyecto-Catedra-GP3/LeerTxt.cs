@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace proyectoPrueba
+namespace Proyecto_Catedra_GP3
 {
     class LeerTxt
     {
@@ -27,8 +27,6 @@ namespace proyectoPrueba
             }
             leerTxt.Close();
             return valores;
-
         }
-
     }
 }

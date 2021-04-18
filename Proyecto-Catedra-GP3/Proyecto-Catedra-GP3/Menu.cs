@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Proyecto_Catedra_GP3
 {
@@ -15,21 +13,21 @@ namespace Proyecto_Catedra_GP3
                 Console.WriteLine("A. Ver todos los productos");
                 Console.WriteLine("B. Buscar un producto por su código");
                 Console.WriteLine("ESC. Salir");
-                var retornoVector = //LeerTxt.LeerTexto();
-                opcionPrincipal = Console.ReadKey(true);
+                var retornoVector = LeerTxt.LeerTexto();
+                opcionPrincipal = Console.ReadKey();
 
                 switch (opcionPrincipal.Key)
                 {
                     case ConsoleKey.A:
                         Console.Clear();
                         MenuSecundarioUno();
-                        Console.WriteLine("Para continuar, presiona cualquier tecla.");
+                        Console.WriteLine("Para continuar, presiona cualquier tecla."); //Para volver al menú principal, presiona [x]...
                         Console.ReadKey();
                         Console.Clear();
                         break;
                     case ConsoleKey.B:
                         Console.Clear();
-                        //MenuSecundarioDos(retornoVector); //El parámetro es incorrecto porque aún no se ha unido.
+                        MenuSecundarioDos(retornoVector); //Falta pasarle un parámetro
                         Console.WriteLine("Para continuar, presiona cualquier tecla.");
                         Console.ReadKey();
                         Console.Clear();
@@ -51,7 +49,9 @@ namespace Proyecto_Catedra_GP3
         public static void MenuSecundarioUno()
         {
             Console.WriteLine("Bienvenido a la opción 'ver todos los productos'");
-            //Productos.Inventario();
+            Productos.Inventario();
+            Compra.CompraProductos();
+
         }
         public static void MenuSecundarioDos(string[,] vectorCodigo)
         {
@@ -60,7 +60,7 @@ namespace Proyecto_Catedra_GP3
             Console.WriteLine("Bienvenido a la opción 'buscar producto por código'");
             Console.WriteLine("Para continuar, introduce un código.");
             codigoProducto = Console.ReadLine();
-
+            Console.Clear();
             for (int i = 0; i < vectorCodigo.GetLength(0); i++)
             {
                 if (codigoProducto == vectorCodigo[i, 0])

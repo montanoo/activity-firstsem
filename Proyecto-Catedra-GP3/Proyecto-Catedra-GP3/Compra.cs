@@ -28,7 +28,7 @@ namespace Proyecto_Catedra_GP3
                         Console.WriteLine($"Producto: {retornoVector[i, 1]}");
                         Console.WriteLine($"Descripción: {retornoVector[i, 4]}");
                         Console.WriteLine($"Unidades disponibles: {retornoVector[i, 3]}");
-                        Console.WriteLine($"Precio del producto: {retornoVector[i, 2]}");
+                        Console.WriteLine($"Precio del producto: ${retornoVector[i, 2]}");
                         indexActual = i;
                         existenciaProducto = true;
                     }
@@ -46,7 +46,7 @@ namespace Proyecto_Catedra_GP3
                     }
                     totalCompra = unidadesComprar * Convert.ToDouble(retornoVector[indexActual, 2]);
 
-                    Console.WriteLine($"{unidadesComprar} x {retornoVector[indexActual, 2]} = {totalCompra}");
+                    Console.WriteLine($"Comprarás {unidadesComprar} unidades a ${retornoVector[indexActual, 2]} c/u, pagarás ${totalCompra}");
                 }
                 else
                 {
