@@ -1,0 +1,5 @@
+Producto: Cuaderno #1
+Unidades: 5
+Precio: 1.55
+Total: 7.75
+

@@ -12,7 +12,6 @@ namespace Proyecto_Catedra_GP3
             string line;
             string[,] valores = new string[10, 5];
             string[] vector = new string[5];
-
             System.IO.StreamReader leerTxt =
                 new System.IO.StreamReader("Inventario.txt");
             while ((line = leerTxt.ReadLine()) != null)
