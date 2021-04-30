@@ -1,4 +1,10 @@
 # Proyecto de Catedra 
+## Integrantes:
+- Bryan Josué Alberto Elena. AE210567
+- Jairo Rafael Colocho Díaz. CD210488 
+- Fernando Josué Montano González. MG210111 
+- Edwin Iván Reyes Figueroa. RF210819 
+- José Carlos Sequeira Alvarado. SA211247 
 
 ## Licencia: Reconocimiento - Compartir Igual (CC BY-SA)
 ---
