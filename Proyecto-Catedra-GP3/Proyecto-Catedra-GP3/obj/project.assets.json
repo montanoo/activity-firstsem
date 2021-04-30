@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\PROYECTO PROGRA I\\LoginCatedra\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3.csproj",
+      "projectUniqueName": "E:\\Documents\\PROYECTO PROGRA I\\LoginBranch\\Second merge\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3.csproj",
       "projectName": "Proyecto-Catedra-GP3",
-      "projectPath": "E:\\Documents\\PROYECTO PROGRA I\\LoginCatedra\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3.csproj",
+      "projectPath": "E:\\Documents\\PROYECTO PROGRA I\\LoginBranch\\Second merge\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3.csproj",
       "packagesPath": "C:\\Users\\Montano\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\PROYECTO PROGRA I\\LoginCatedra\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\obj\\",
+      "outputPath": "E:\\Documents\\PROYECTO PROGRA I\\LoginBranch\\Second merge\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\Proyecto-Catedra-GP3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

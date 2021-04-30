@@ -7,6 +7,7 @@ namespace Proyecto_Catedra_GP3
         static void Main(string[] args)
         {
             Login.Ingresar();
+            Menu.MenuPrincipal();
             Console.ReadKey();
         }
     }
