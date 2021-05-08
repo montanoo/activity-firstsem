@@ -10,7 +10,7 @@ namespace Proyecto_Catedra_GP3
             do
             {
                 Console.WriteLine("Seleccione su opción: ");
-                Console.WriteLine("A. Ver todos los productos");
+                Console.WriteLine("A. Comprar productos");
                 Console.WriteLine("B. Buscar un producto por su código");
                 Console.WriteLine("ESC. Salir");
                 var retornoVector = LeerTxt.LeerTexto();
@@ -21,7 +21,6 @@ namespace Proyecto_Catedra_GP3
                     case ConsoleKey.A:
                         Console.Clear();
                         MenuSecundarioUno();
-                        Console.WriteLine("Para continuar, presiona cualquier tecla."); //Para volver al menú principal, presiona [x]...
                         Console.ReadKey();
                         Console.Clear();
                         break;
@@ -48,10 +47,9 @@ namespace Proyecto_Catedra_GP3
         }
         public static void MenuSecundarioUno()
         {
-            Console.WriteLine("Bienvenido a la opción 'ver todos los productos'");
+            Console.WriteLine("Bienvenido a la opción 'comprar productos'");
             Productos.Inventario();
             Compra.CompraProductos();
-
         }
         public static void MenuSecundarioDos(string[,] vectorCodigo)
         {

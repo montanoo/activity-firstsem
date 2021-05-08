@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.IO;
 
 namespace Proyecto_Catedra_GP3
+
 {
     class LeerTxt
     {
+        public static string oldPath = Directory.GetCurrentDirectory();
+        public static string pathInventario = LeerTxt.oldPath.Replace("\\bin\\Debug\\netcoreapp3.1", "\\Inventario");
+
+        public static string pathRecibo = LeerTxt.oldPath.Replace("\\bin\\Debug\\netcoreapp3.1", "\\Recibos");
+
         public static string[,] LeerTexto()
         {
             int counter = 0;
@@ -13,8 +17,8 @@ namespace Proyecto_Catedra_GP3
             string[,] valores = new string[10, 5];
             string[] vector = new string[5];
 
-            System.IO.StreamReader leerTxt =
-                new System.IO.StreamReader("Inventario.txt");
+            
+            StreamReader leerTxt =new StreamReader($"{LeerTxt.pathInventario}\\Inventario.txt");
             while ((line = leerTxt.ReadLine()) != null)
             {
                 vector = line.Split(","); //Separa la linea cuando exista una coma

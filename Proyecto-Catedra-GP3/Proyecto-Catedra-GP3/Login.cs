@@ -5,6 +5,8 @@ namespace Proyecto_Catedra_GP3
 {
     class Login
     {
+        public static string DataPath = LeerTxt.oldPath.Replace("\\bin\\Debug\\netcoreapp3.1", "\\data");
+
         public static void Ingresar()
         {
             bool banderaAcceso = true;
@@ -12,6 +14,17 @@ namespace Proyecto_Catedra_GP3
             {
                 int op;
                 string inputUser, password;
+
+                if (!Directory.Exists(Login.DataPath) || !File.Exists($"{Login.DataPath}\\login.txt"))
+                {
+                    Directory.CreateDirectory(Login.DataPath);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Parece que es la primera vez que ejecutas la aplicación, crea una cuenta.");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Login.CreacionLogin();
+                    Console.Clear();
+                }
+
                 Console.WriteLine("Selecciona una opción: ");
                 Console.WriteLine("1. Iniciar sesión");
                 Console.WriteLine("2. Crear una cuenta");
@@ -28,19 +41,19 @@ namespace Proyecto_Catedra_GP3
                     Console.WriteLine("Iniciar sesión");
                     Console.ForegroundColor = ConsoleColor.White;
 
-                    StreamReader asignacionColumnas = new StreamReader("login.txt");
+                    StreamReader asignacionColumnas = new StreamReader($"{Login.DataPath}\\login.txt");
                     while ((lineCounter = asignacionColumnas.ReadLine()) != null)
                     {
                         txtLineCounter++;
                     }
                     asignacionColumnas.Close();
 
-                    StreamReader lecturaDatos = new StreamReader("login.txt");
+                    StreamReader lecturaDatos = new StreamReader($"{Login.DataPath}\\login.txt");
                     string[,] userData = new string[txtLineCounter, 2];
                     while ((line = lecturaDatos.ReadLine()) != null)
                     {
                         vector = line.Split(",");
-                        for (int k = 0; k < vector.Length; k++) 
+                        for (int k = 0; k < vector.Length; k++)
                         {
                             userData[counter, k] = vector[k];
                         }
@@ -97,14 +110,14 @@ namespace Proyecto_Catedra_GP3
         public static void CreacionLogin()
         {
             string user, password;
-            StreamWriter usuario = new StreamWriter("login.txt", true);
 
-            Console.WriteLine("Digita tu usuario");
+            Console.Write("Digita tu usuario: ");
             user = Console.ReadLine();
 
-            Console.WriteLine("Digita tu contraseña");
+            Console.Write("Digita tu contraseña: ");
             password = Console.ReadLine();
 
+            StreamWriter usuario = new StreamWriter($"{Login.DataPath}\\login.txt", true);
             usuario.Write($"{user},{password}\n");
             usuario.Close();
         }

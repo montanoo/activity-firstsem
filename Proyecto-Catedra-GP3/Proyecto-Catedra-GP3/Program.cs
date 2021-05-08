@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Proyecto_Catedra_GP3
 {
@@ -7,7 +8,9 @@ namespace Proyecto_Catedra_GP3
         static void Main(string[] args)
         {
             Login.Ingresar();
+            Recibo.Apertura();
             Menu.MenuPrincipal();
+            Recibo.Cierre();
             Console.ReadKey();
         }
     }
