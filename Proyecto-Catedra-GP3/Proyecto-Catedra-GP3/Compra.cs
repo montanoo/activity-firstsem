@@ -93,6 +93,7 @@ namespace Proyecto_Catedra_GP3
                     {
                         Recibo.Cierre();
                         existenciaProducto = true;
+                        Environment.Exit(0);
                     }
                 }
                 else
@@ -112,6 +113,7 @@ namespace Proyecto_Catedra_GP3
                     {
                         Recibo.Cierre();
                         existenciaProducto = true;
+                        Environment.Exit(0);
                     }
                 }
             }
