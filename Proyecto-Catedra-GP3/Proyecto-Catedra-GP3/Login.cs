@@ -9,6 +9,7 @@ namespace Proyecto_Catedra_GP3
 
         public static void Ingresar()
         {
+            Console.Title = "Sistema de ventas";
             bool banderaAcceso = true;
             do
             {
