@@ -10,7 +10,6 @@ namespace Proyecto_Catedra_GP3
             Login.Ingresar();
             Recibo.Apertura();
             Menu.MenuPrincipal();
-            Recibo.Cierre();
             Console.ReadKey();
         }
     }

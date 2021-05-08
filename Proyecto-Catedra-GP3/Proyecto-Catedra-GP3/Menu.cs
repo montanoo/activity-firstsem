@@ -33,6 +33,7 @@ namespace Proyecto_Catedra_GP3
                         break;
                     case ConsoleKey.Escape:
                         Console.WriteLine("Gracias por utilizar el programa.");
+                        Recibo.Cierre();
                         break;
                     default:
                         Console.Clear();

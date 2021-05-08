@@ -91,12 +91,8 @@ namespace Proyecto_Catedra_GP3
                     }
                     else if (opcionesSecundarias == 3) 
                     {
-                        StreamWriter total = new StreamWriter($"{LeerTxt.pathRecibo}\\{DateTime.Now.ToString("dd-MM-yy")}.txt", true);
-                        total.WriteLine($"Total de la compra: ${Compra.totalTotal}");
-                        total.WriteLine("------------Fin de compra------------");
-                        total.Close();
-                        Console.ReadKey();
-                        Environment.Exit(0); 
+                        Recibo.Cierre();
+                        existenciaProducto = true;
                     }
                 }
                 else
@@ -114,12 +110,8 @@ namespace Proyecto_Catedra_GP3
                     }
                     else
                     {
-                        StreamWriter total = new StreamWriter($"{LeerTxt.pathRecibo}\\{DateTime.Now.ToString("dd-MM-yy")}.txt", true);
-                        total.WriteLine($"Total de la compra: ${Compra.totalTotal}");
-                        total.WriteLine("------------Fin de compra------------");
-                        total.Close();
-                        Console.ReadKey();
-                        Environment.Exit(0);
+                        Recibo.Cierre();
+                        existenciaProducto = true;
                     }
                 }
             }
