@@ -1,10 +1,10 @@
-1,Cuaderno #1,1.55,100,Producto de la marca Norma de 200 hojas amigable con el medio ambiente.
-2,Cuaderno #2,1.25,60,Producto de la marca Norma de 150 hojas amigable con el medio ambiente.
-3,Plumones,1.15,5,Producto de la marca Office Max la caja cuenta con 12 tonalidades.
-4,Bolígrafos negros,0.75,15,Producto de la marca Bic color negro ideal para actividades escolares.
-5,Bolígrafos rojos,0.75,10,Producto de la marca Bic color rojo ideal para actividades escolares.
+1,Cuaderno #1,1.55,85,Producto de la marca Norma de 200 hojas amigable con el medio ambiente.
+2,Cuaderno #2,1.25,55,Producto de la marca Norma de 150 hojas amigable con el medio ambiente.
+3,Plumones,1.15,100,Producto de la marca Office Max la caja cuenta con 12 tonalidades.
+4,Bolígrafos negros,0.75,200,Producto de la marca Bic color negro ideal para actividades escolares.
+5,Bolígrafos rojos,0.75,200,Producto de la marca Bic color rojo ideal para actividades escolares.
 6,Bolígrafos azules,0.75,100,Producto de la marca Bic color azul ideal para actividades escolares.
-7,Lápices,0.55,30,Producto de la marca Staedtler con el mejor grafito extraído de Africa.
-8,Sacapuntas,0.35,50,Producto de la marca Staedtler creado con la última tecnología en plásticos.
+7,Lápices,0.55,50,Producto de la marca Staedtler con el mejor grafito extraído de Africa.
+8,Sacapuntas,0.35,75,Producto de la marca Staedtler creado con la última tecnología en plásticos.
 9,Engrapadora,4.25,60,Producto de la marca Staedtler creado con la última tecnología en métales.
-10,Resma de papel bond,6.35,20,Producto de la marca Pelikan  50% de material reciclado.
+10,Resma de papel bond,6.35,95,Producto de la marca Pelikan  50% de material reciclado.

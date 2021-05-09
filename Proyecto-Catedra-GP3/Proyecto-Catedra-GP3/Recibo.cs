@@ -20,7 +20,7 @@ namespace Proyecto_Catedra_GP3
         public static void Cierre()
         {
             StreamWriter total = new StreamWriter($"{LeerTxt.pathRecibo}\\{DateTime.Now.ToString("dd-MM-yy")}.txt", true);
-            total.WriteLine($"Total de la compra: ${Compra.totalTotal}");
+            total.WriteLine($"Total de la compra: ${Math.Round(Compra.totalTotal,2)}");
             total.WriteLine("------------Fin de compra------------\n");
             total.Close();
         }
